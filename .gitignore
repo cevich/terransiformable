@@ -1,0 +1,8 @@
+*.swp
+backend.cfg
+terraform.tfstate*
+*.log
+.terraform
+.initialized
+plan.bin
+terraform*.yml

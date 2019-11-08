@@ -1,0 +1,9 @@
+---
+
+- hosts: localhost
+  tasks:
+      - debug: msg="localhost is doing stuff"
+
+- hosts: testhost
+  tasks:
+      - debug: msg="Usefull things could be happening"
